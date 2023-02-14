@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    max-width: 1440px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+
+.imagens .pinturas{
+    width: 335px;
+    height: 431px;
+    position: relative;
+}
+
+.imagens{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 100px 18px 0px 21px;
+    
+}
+
+#arte-1{
+    background-image: url(../imagens/rome.png);
+    background-position: center center;
+}
+
+#arte-2{
+    background-image: url(../imagens/boat.png);
+    background-position: center center;
+}
+
+#arte-3{
+    background-image: url(../imagens/sand-and-sea.png);
+    background-position: center center;
+}
+
+#arte-4{
+    background-image: url(../imagens/starry-night.png);
+    background-position: center center;
+}
+
+
+.informacoes{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    color: white;
+}

@@ -1,0 +1,47 @@
+@media (min-width: 1590px){
+    .imagens{
+        width: 2400px;
+        margin: 1000px 50px 0;
+        
+    }
+
+    .pinturas{
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 1440px){
+    .imagens{
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        gap: 20px;
+    
+        
+    }
+        
+}
+
+@media (max-width: 768px){
+    body{
+        gap: 8px;
+    }
+    .imagens{
+        flex-wrap: wrap;
+        background-position: center center;
+    }
+
+    .pinturas{
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px){
+    .imagens{
+        display: flex;
+        gap: 0;
+    }
+}
+
